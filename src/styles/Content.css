@@ -1,0 +1,84 @@
+.content {
+  display: flex;
+  padding-top: 70px;
+  gap: 40px;
+}
+.content_corusel {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  border-radius: 12px;
+  background-color: #f2f5f6;
+}
+.avatar__card {
+  width: 600px;
+  margin-left: 60px;
+}
+.flex__home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60%;
+}
+.flex__home button {
+    font-size: 30px;
+    padding: 12px 50px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.name__card {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.icon_button3 {
+  left: 5px;
+  position: absolute !important;
+  top: 50%;
+}
+.icon_button1 {
+  position: absolute !important;
+  right: 5px !important;
+  top: 50%;
+}
+.content__green__btn {
+  border-radius: 10px;
+  border: none;
+  padding: 14px 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #30d170;
+}
+.content__smoke__btn {
+  padding: 12px 16px;
+}
+.content__smoke__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  gap: 8px;
+}
+.content__flex__btn {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.characteristics {
+  padding-top: 20px;
+}

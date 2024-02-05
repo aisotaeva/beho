@@ -1,0 +1,22 @@
+.slider__card {
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.c-card {
+    margin-bottom: 20px;    
+}
+.home_carusel {
+    position: relative;
+    border:none !important;
+}
+.icon_button {
+    position: absolute !important;
+    top: 50% !important;
+    left: -60px;
+}
+.icon_button2 {
+    position: absolute !important;
+    top: 50% !important;
+    right: -60px !important;
+}

@@ -1,0 +1,29 @@
+.target_card {
+    display: flex;
+    justify-content: space-between;
+}
+.card h1 {
+font-size: 48px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: left;
+color: #FF4D4D;
+}
+.card {
+    width: 336px;
+    height: 140px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.card p {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #0F1113;
+max-width: 100%;
+}

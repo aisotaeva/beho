@@ -1,0 +1,51 @@
+.section__notfount {
+  .nofount__wrapper {
+    position: relative;
+    height: 680px;
+    width: 100%;
+    z-index: -1;
+    video {
+      position: absolute;
+      top: -10%;
+      left: 0;
+      width: 100%;
+      height: 150%;
+      z-index: 1;
+      object-fit: cover;
+    }
+  }
+  .logonot {
+    top: 0px;
+    position: absolute;
+    font-size: 200px !important;
+    font-size: 24px;
+    color: black;
+    text-shadow: 0 0 5px red, 0 0 10px, 0 0 15px #cfa723, 0 0 17px #cfa723;
+    top: 20%; 
+    left: 40%;
+  }
+  .target__found {
+    top: 0px;
+    font-size: 80px;
+    position: absolute;
+    color: black;
+    text-shadow: 0 0 5px red, 0 0 10px, 0 0 15px #cfa723, 0 0 17px #cfa723;
+    top: 50%; 
+    left: 33%;
+  }
+  .strelka__found {
+    top: 0px;
+    font-size: 50px;
+    position: absolute;
+    color: black;
+    text-shadow: 0 0 5px red, 0 0 10px, 0 0 15px #cfa723, 0 0 17px #cfa723;
+    top: 70%; 
+    left: 40%;
+    display: flex;
+    align-items: center;
+    span {
+    font-size: 30px;
+    margin-right: 20px;
+    }
+  }
+}

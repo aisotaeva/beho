@@ -1,0 +1,17 @@
+.content__image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.img__content2 {
+    width: 100%;
+}
+.bgc__img__ontent2 {
+    background-color: #f2f5f9;
+    width: 222px;
+    height: 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}

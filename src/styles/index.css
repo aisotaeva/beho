@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "./Header.css";
+@import "./TheBestProducts.css";
+@import "./Corusel.css";
+@import "./TargetTitle.css";
+@import "./TargetCard.css";
+@import "./ProductsCards.css";
+@import "./Content.css";
+@import "./RateContent.css";
+@import "./ColorFullBtn.css";
+@import "./Memory.css";
+@import "./ContentImage2.css";
+@import "./Favorite.css";
+@import "./NotFound.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+.container2 {
+  max-width: 1288px;
+  width: 100%;
+  margin: auto;
+}
+.section__title {
+  color: #0f1113;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
